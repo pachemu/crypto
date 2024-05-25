@@ -1,0 +1,43 @@
+.coinsList {
+    padding: 15px;
+    border-radius: 16px;
+    width: 200px;
+    height: 150px;
+    background-color: rgb(255, 135, 23);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cryptoCoin {
+    width: 90vw;
+    height: 50px;
+    background-color: gray;
+    margin-bottom: 50px;
+    opacity: 95%;
+    border-radius: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coinInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px; /* Добавьте отступ, чтобы отделить изображение от имени */
+}
+
+.coinName {
+    margin: 0; /* Убедитесь, что отступы у coinName установлены в ноль, если они есть */
+}
+
+.price-USD, .price-BTC {
+    margin: 0; /* Убедитесь, что отступы у цен установлены в ноль, если они есть */
+}
